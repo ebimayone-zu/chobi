@@ -47,6 +47,7 @@ a {
 
 .signup {
   background-color: #239b76;
+  box-shadow:black;
 }
 
 .facebook {
@@ -65,13 +66,13 @@ a {
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
-  box-shadow:black;
+  
 }
 
 .btn:hover {
   opacity: 1;
 }
-.btn:active{
+.signup:active{
   box-shadow:none;
   positon:rerative;
   top:7px;
