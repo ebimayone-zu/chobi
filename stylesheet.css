@@ -65,12 +65,17 @@ a {
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
+  box-shadow:black;
 }
 
 .btn:hover {
   opacity: 1;
 }
-
+.btn:active{
+  box-shadow:none;
+  positon:rerative;
+  top:7px;
+}
 .fa {
   margin-right: 5px;
 }
